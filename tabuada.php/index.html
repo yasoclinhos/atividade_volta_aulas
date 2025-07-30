@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada em PHP</title>
+    
+    <style>
+        
+        body {
+            background-color: #ddb7ff;
+            font-family: Arial, sans-serif;
+            color: #4b0082;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #6a0dad;
+        }
+
+        form {
+            background-color: #e6ccff;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(75, 0, 130, 0.2);
+        }
+
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        input[type="number"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 150px;
+        }
+
+        button {
+            background-color: #800080;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #9932cc;
+        }
+
+        
+    
+
+
+    </style>
+    
+</head>
+<body>
+
+    <img src="/imgs/uva-removebg-preview.png" alt="">
+    <h1>Gerador de Tabuada</h1>
+    <form action="tabuada.php" method="POST">
+          <label for="numero">Digite um número positivo:</label>
+          <input type="number" name="numero" id="numero" required>
+          <button type="submit">Gerar Tabuada</button>
+    </form>
+
+</body>
+</html>
